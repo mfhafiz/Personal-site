@@ -1,0 +1,131 @@
+/*navbar design start here*/
+/* For desktop*/
+.col-12
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.navbar{
+    background-color: rgb(120, 133, 245);
+}
+
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+text-align: right;
+font-size: 2rem;
+}
+.nav-menu{
+flex-direction: row;
+justify-content: flex-end;
+}
+.nav-menu a{
+    padding: 5px;
+  background-color: transparent;
+}
+.nav-menu a:hover{
+    background-color: black;
+    transition: calc(2s);
+    color:brown;
+    cursor:pointer;
+}/*navbar design end here*/
+.profile .top-prayer-icon{
+
+    width:120px;
+    right: 100px;
+    top: 20px;
+     transition: transform 2s;
+}
+.profile .top-prayer-icon:hover{
+
+width:140px;
+}
+/* profile design starts here*/
+.profile .bottom-prayer-icon{
+ 
+   left: 120px;
+   bottom: 20px;
+     width:120px;
+}
+.profile .bottom-prayer-icon:hover{
+    width:140px;
+}
+.profile-des h1{
+    font-family:monospace;
+    font-size: 3rem;
+    color:blue
+}
+.profile-des p{
+    color: rgb(78, 105, 223);
+    text-align: center;
+    width:50%;
+    margin: 0 auto;
+    margin-bottom:10px;
+
+}
+
+
+
+/* profile design ends here*/
+
+
+
+/* about me design starts here */
+.aboutme-image{
+     margin-top: 100px;
+}
+.aboutme-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 300px;
+    height: 320px;
+}
+.aboutme-des p{
+    text-align: left;
+}
+
+/* about me design ends here */
+
+/* professional experience  start*/
+.professional-experience{
+    padding: 1% 7%;
+
+}
+
+
+/* professional experience  start*/
+ /* Achievement section start*/
+ .contact{
+  padding-right:45px;
+
+}
+.contact button{
+    width: 100px;
+}
+.contact-link{
+    position: relative;
+
+}
+.media-buttons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% -50%);
+    margin-top: 200px;
+}
+ /* Achievement section ends*/
+.footer-menu a{
+    display:inline;
+}
+.footer-des{
+    font-size: 1rem;
+}
